@@ -1,5 +1,5 @@
 # psc_biovision
-A project involving the École polytechnique and the Thales Group on artificial vision. It is quite a high level idea of a system, but I think it contains some useful ideas, all of them inspired by Gestalt theory. We provide a C++ implementation on a simple Turtlebot robot, using the firmware ROS. It may not be directly usable as such, as I think some of the ROS nodes are missing (the feature extractor). Some of the choices we made can be retrospectively considered naive, but it this time none of thus knew much about computer vision.
+A project involving the École polytechnique and the Thales Group on artificial vision. It is quite a high level idea of a system, but I think it contains some useful ideas, all of them inspired by Gestalt theory. We provide a C++ implementation on a simple Turtlebot robot, using the firmware ROS. It may not be directly usable as such, as I think some of the ROS nodes are missing (the feature extractor).
 
 The idea is to model a 'context' using visual informations, and to propose a simple algorithm to discriminate between contexts. We consider a small robot with a camera, which moves in some different places.
 
@@ -13,4 +13,4 @@ Over time, the robots successively sees several times several contexts, for whic
 
 It is not clear which degree of supervision we should give. The mapping from visual informations to the SOM is unsupervised, up to a proper setting of the parameters (the shape of the map). Then recognizing a context from an activation of the map could be either a supervised or an unsupervised task.
 
-We made some not very conclusive first experiments, but did not have enough time to lead them properly. I'll try to find some time to make them some day.
+We made some not very conclusive first experiments, but did not have enough time to lead them properly. I'll try to find some time to make them some day. Some of the choices we made can be retrospectively considered naive, but it this time none of us knew much about computer vision.
