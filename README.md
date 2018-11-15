@@ -1,5 +1,5 @@
 # psc_biovision
-A project involving the École polytechnique and the Thales Group on artificial vision. It is quite a high level idea of a system, but I think it contains some useful ideas, all of them bio-inspired. We provide a C++ implementation on a simple Turtlebot robot, using the framework ROS. It may not be directly usable as such, as I am not sure all the ROS nodes are included.
+A project involving the École polytechnique and the Thales Group on artificial vision. It is quite a high level idea of a system, but I think it contains some useful ideas, all of them bio-inspired. We provide a C++ implementation on a simple Turtlebot robot, using the framework ROS. It may not be directly usable as such, as I think some of the ROS nodes are missing (the feature extractor).
 
 The idea is to model a 'context' using visual informations, and to propose a simple algorithm to discriminate between contexts. We consider a small robot with a camera, which moves in some different places.
 
