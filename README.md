@@ -13,4 +13,4 @@ Over time, the robots successively sees several times several contexts, for whic
 
 It is not clear which degree of supervision we should give. The mapping from visual informations to the SOM is unsupervised, up to a proper setting of the parameters (the shape of the map). Then recognizing a context from an activation of the map could be either a supervised or an unsupervised task.
 
-We made some not very conclusive first experiments, but did not have enough time to lead them properly. I'll try to find some time to make them some day. Some of the choices we made can be retrospectively considered naive, but it this time none of us knew much about computer vision.
+We made some not very conclusive first experiments, but did not have enough time to lead them properly. I'll try to find some time to make them some day. Some of the choices we made can be retrospectively considered naive, but at this time none of us knew much about computer vision.
